@@ -18,7 +18,7 @@ activityrecognition@smartlab.ws
 www.smartlab.ws
 ==================================================================
 
-The tidyData.csv file has been generated with the script run_analysis.R, which is on GitHub at +++. 
+The tidyData.csv file has been generated with the script run_analysis.R, which is on GitHub at https://github.com/ciakovx/CourseraCleaningAssignment/blob/master/run_analysis.R. 
 
 Before running the script, the UCI HAR Dataset must be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzipped. In R, set your working directory to the 'UCI HAR Dataset" directory using the command setwd(). 
 
