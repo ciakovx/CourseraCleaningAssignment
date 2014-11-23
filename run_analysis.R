@@ -1,5 +1,7 @@
-# Set your working directory to the UCI HAR Dataset
+### IMPORTANT:
+#Set your working directory to the UCI HAR Dataset
 setwd("Your Directory/UCI HAR Dataset")
+###
 
 library(reshape2)
 library(stringr)
@@ -69,6 +71,5 @@ rownames(final.df) <- NULL
 
 # Write the table
 write.table(final.df
-            , file="./tidyData.csv"
-            , row.names = FALSE
-            , sep = ",")
+            , file="./tidyData.txt"
+            , row.names = FALSE)
